@@ -14,6 +14,7 @@ public class FourTest extends Base {
 	public WebDriver driver;
 	@Test
 	public void testFour() throws IOException, InterruptedException {
+		System.out.println("Ahmad updated this test-case");
 		System.out.println("Test Four printing...");
 		driver = initializeDriver();
 		driver.get("http://tutorialsninja.com/demo/");
